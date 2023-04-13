@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- Bootstrap scripts -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+  <section id="header">
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">     
+        <img src="assets/images/logo.svg" alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news-bar">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Categories</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="homepage">
+        <div class="row">
+          <div class="col main">
+            <img class="header-img" src="assets/images/image-web-3-desktop.jpg" src="web3-image">
+            <div class="row">
+              <div class="col-lg-6">
+                <h1 class="header-text">The Bright Future of Web 3.0?</h1>
+              </div>
+              <div class="col-lg-6">
+                <p class="para-text">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                <button type="button" class="btn btn1">READ MORE</button>
+              </div>   
+            </div>
+          </div>
+          <div class="col-lg-3 news-bar">
+            <h2>New </h2>
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <hr>
+            <h3>The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            <hr>
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            <hr>
+            <h3>Downsides of Web 3.0</h3>
+            <p>Learn all about web 3.0, its benefits and downsides and why is it so hyped up.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="read-also">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="row">
+          <div class="col-4">
+            <img class="more-img" src="assets/images/image-retro-pcs.jpg" alt="computer-image">
+          </div>
+          <div class="col-8">
+            <h2>01</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row">
+          <div class="col-4">
+            <img class="more-img" src="assets/images/image-top-laptops.jpg" alt="laptop-keyboard-image">
+          </div>
+          <div class="col-8">
+            <h2>02</h2>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row">
+          <div class="col-4 col-sm-4">
+            <img class="more-img" src="assets/images/image-gaming-growth.jpg" alt="gaming-remote-image">
+          </div>
+          <div class="col-8 col-sm-8">
+            <h2>03</h2>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/ayeshakarim19">Aisha Naaz</a>.
+</footer>
+</html>

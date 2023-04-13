@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 16px; 
+	text-align: left;
+	padding: 2% 8%;
+}
+h1{
+	font-size: 3rem;
+	font-weight: 800;
+}
+h2{
+	color: hsl(35, 77%, 62%);
+	font-weight: bold;
+	margin-bottom: 8%;
+}
+h3{
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 10px 0;
+}
+h3:hover{
+	color: hsl(35, 77%, 62%);
+}
+p{
+	font-size: 0.85rem;
+	color: hsl(236, 13%, 42%);
+	margin-bottom: 2%;
+}
+.nav-link{
+	font-size: 0.85rem;
+	margin-left: 20px;
+	color: hsl(236, 13%, 42%);
+}
+.nav-link:hover{
+	color: hsl(5, 85%, 63%);
+}
+.navbar{
+	margin: 2% auto 3% auto;
+}
+.main{
+	padding-right: 2%;
+}
+.header-img{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	margin-right: 10px;
+}
+.col-lg-6{
+	margin-top: 20px;
+	padding-right: 2%;
+}
+.para-text{
+	margin-bottom: 20px;
+}
+.btn1{
+	background-color: hsl(5, 85%, 63%);
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 0.8rem;
+	border-radius: 0;
+	padding: 10px 20px;
+}
+.btn:hover{
+	background-color: hsl(240, 100%, 5%);
+	color:#fff;
+}
+.news-bar{
+	padding: 2% 1.5% ;
+	background-color: hsl(240, 100%, 5%);
+	color: #fff;
+}
+/*Read-also section*/
+
+#read-also{
+	margin-top: 4%;
+	padding: 1%;
+}
+.more-img{
+	height: 50%;
+	width: auto;
+	object-fit: contain;
+}
+#read-also h2{
+	color: hsl(233, 8%, 79%);
+}
+#read-also h3:hover{
+	color: hsl(5, 85%, 63%);
+}
+
+/*Footer*/
+
+.attribution{
+	font-size: 14px;
+	text-align: center;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
