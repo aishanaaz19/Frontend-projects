@@ -1,2 +1,2 @@
-# Frontend-projects
-Solutions of different challenges on frontend mentor
+# Wpost - your daily tech news
+This is a demo news homepae, a solution to a frontend challenge on frontend mentor
