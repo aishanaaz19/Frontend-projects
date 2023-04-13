@@ -1,2 +1,2 @@
 # Frontend-projects
-Solutions of different frontend mentor challenges
+Solutions of different challenges on frontend mentor
